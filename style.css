@@ -1,0 +1,116 @@
+/* Global Styles */
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+ 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf9f8;
+    color: #333;
+}
+
+nav {
+    background-color: #3d4d60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    height: 150px;
+}
+
+nav h3 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #89a1ff;
+}
+
+.container {
+    padding: 80px 20px;
+    text-align: center;
+    height: 80vh;
+}
+
+.home {
+    background-color: #f3f5f7;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.home h2 {
+    font-size: 1.8rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+    /* Placeholder for profile image */
+}
+
+/* About, Skills, Contact Section Styles */
+.about, .skills, .contact {
+    background-color: #fff;
+    color: #333;
+    padding: 50px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Ginagawa itong bilog */
+    object-fit: cover;  /* Para mag-fit ang image sa bilog */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 20px;
+}
